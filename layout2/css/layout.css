@@ -1,0 +1,320 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+header ol li{
+    list-style: none;
+    display: inline;
+    padding: 25px;
+}
+
+ol li  a:hover{
+    color:rgb(10, 133, 234);
+}
+
+header img{
+    margin-top: 15px;
+}
+
+header ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+.head h1{
+    text-align: center;
+    color: rgb(15, 0, 73);
+}
+
+.head p{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+.image{
+    border: 10px solid black;
+    width: 857px;
+    height: 522px;
+    border-radius: 15px;
+    margin-left: 250px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(15, 0, 73); 
+}
+
+.part2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue-box{
+    width: 1440px;
+    height: 1038px;
+    background-color: rgb(10, 133, 234);
+    color: white;
+}
+
+#blue-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.right-box h3{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+#blue-box p{
+    margin-top: 100px;
+}
+
+#meeting-image{
+margin-left: 200px;
+margin-top: 100px;
+}
+
+.year h3{
+text-align: center;
+font-size: 30px;
+color:rgb(15, 0, 73); 
+margin-top: 100px;
+}
+
+#year{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.started{
+    width: 90%;
+    height: 350px;
+    background-color: rgb(10, 133, 234);
+    margin-left: 70px;
+    color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.started p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#started{
+    text-align: center;
+    font-size: 40px;
+}
+
+#team{
+    border: 1px solid transparent;
+    width: 88px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(246, 58, 96, 0.122);
+    color:rgb(246, 58, 97);
+    margin-left: 700px;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(15, 0, 73);
+}
+
+.team p{
+    text-align: center;
+} 
+
+.team-image{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width: 1000px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.join{
+    border: 1px solid transparent;
+    width: 1100px;
+    height: 217px;
+    display: flex;
+    margin-left: 120px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+
+}
+
+.join h4{
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.join p{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.question p{
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 50px;
+    
+    
+} 
+
+.link select{
+    width: 480px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(15, 0, 73);;
+
+}
+
+.question{
+    width: 100%;
+    height: 740px;
+    background-color: rgb(234, 234, 234);
+}
+
+footer{
+    width: 100%;
+    height: 582px;
+    background-color: rgb(0, 0, 63);
+    color: white;
+}
+
+.Container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Container ol li{
+    list-style: none;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.info{
+    float: right;
+    margin-top: -230px;
+    margin-right: 150px;
+}
+
+.Container ol{
+    margin-top: 100px;
+}
+
+.info p{
+    font-weight: lighter;
+}
+
+.vertical-line{
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+    margin-left: 125px;
+}
+
+.line{
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+    margin-left: 95px;
+    margin-top: -150px;
+}
+
+.last{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 95px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+}
+
+.form-box{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.form-box input{
+    border: none;
+    outline: none;
+}
+
+.form button{
+    background-color: rgb(246, 58, 97);
+    width: 116px;
+    height: 44px;
+    border-radius: 20px;
+    color: white;
+    border: transparent;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 66px;
+}
+
+#form-box{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#form-box input{
+    border: none;
+    outline: none;
+}  
+
+#form button{
+    background-color: rgb(246, 58, 97);
+    width: 116px;
+    height: 44px;
+    border-radius: 20px;
+    color: white;
+    border: transparent; 
+}
+
+.Container ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Container ol li a:hover{
+    color:rgb(10, 133, 234) ;
+}
